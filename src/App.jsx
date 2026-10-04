@@ -9,10 +9,11 @@ const profile = {
   email: 'johndenmar.tan@gmail.com',
   linkedin: 'https://linkedin.com/in/denmartan',
   intro:
-    'I build full-stack web applications with .NET on the backend and React on the frontend, and I care about making them fast.',
+    'I build full-stack web applications with C# and .NET on the backend and React on the frontend, and I care about making them fast.',
   about: [
     'I started my career in middleware support at Accenture, deploying applications and keeping servers healthy across Integration, Stage and Production. That taught me how software behaves once it leaves the developer’s machine.',
-    'Since 2022 I have been a Full Stack Software Developer at DXC Technology, working in an Agile/Scrum team and delivering features end to end, from the API and database to the user interface.',
+    'Since 2022 I have been a Full Stack Software Developer at DXC Technology, working in an Agile/Scrum team and delivering features end to end, from REST APIs and Azure Cosmos DB to reusable React components.',
+    'I work in C#, TypeScript and SQL, use AI coding tools like Claude Code and GitHub Copilot day to day, and I am Microsoft Certified in Azure Fundamentals and Power Platform Fundamentals.',
   ],
 }
 
@@ -29,10 +30,14 @@ const experience = [
     place: 'Taguig, Philippines',
     period: 'Aug 2022 - Present',
     points: [
-      'Deliver full-stack features using .NET for the backend and ReactJS for the frontend.',
-      'Improved API response time by 80% by implementing pagination.',
-      'Migrated data from SharePoint sources into the Cosmos DB NoSQL database.',
-      'Work in an Agile/Scrum team with weekly backlog sessions and daily Scrum meetings.',
+      'Build and maintain REST APIs in C# and .NET that serve as the backend for full-stack business applications.',
+      'Develop reusable React components for the frontend, keeping the UI consistent across features.',
+      'Improved API response time by 80% by implementing pagination on a core API.',
+      'Migrated data from SharePoint sources to Azure Cosmos DB, a NoSQL database.',
+      'Write unit tests with xUnit to verify new features and prevent regressions before release.',
+      'Deploy applications to Microsoft Azure.',
+      'Mentor and onboard new teammates on the codebase and team development workflow.',
+      'Deliver assigned work in an Agile/Scrum team, taking part in daily Scrum and weekly backlog meetings.',
     ],
   },
   {
@@ -42,17 +47,21 @@ const experience = [
     period: 'Feb 2021 - Aug 2022',
     points: [
       'Deployed applications across Integration, Stage and Production environments.',
-      'Monitored application alerts, restarted services and servers, updated certificates, and ran pre/post validation during patching.',
-      'Provisioned access for development teams and worked with them to investigate application issues.',
-      'Performed daily health checks on supported technologies and servers.',
+      'Monitored application alerts and restored services through service and server restarts.',
+      'Updated certificates and ran pre- and post-patching validation to keep supported servers stable.',
+      'Provisioned access for the development team and worked with developers to investigate application issues.',
+      'Performed daily health checks on supported middleware technologies and servers.',
     ],
   },
 ]
 
 const skills = [
-  { group: 'Development', items: ['C#', '.NET', 'ReactJS', 'Cosmos DB', 'SQL'] },
-  { group: 'Tools & Platforms', items: ['Azure', 'GitHub', 'Jira'] },
-  { group: 'AI', items: ['GitHub Copilot'] },
+  { group: 'Programming Languages', items: ['C#', 'JavaScript', 'TypeScript', 'SQL'] },
+  { group: 'Frameworks & Libraries', items: ['.NET', 'React', 'xUnit'] },
+  { group: 'Databases', items: ['Azure Cosmos DB (NoSQL)', 'SQL'] },
+  { group: 'Cloud & Tools', items: ['Microsoft Azure', 'GitHub', 'Jira', 'SharePoint'] },
+  { group: 'AI Development Tools', items: ['Claude Code', 'GitHub Copilot'] },
+  { group: 'Methodologies', items: ['Agile', 'Scrum'] },
   { group: 'Languages', items: ['English', 'Filipino'] },
 ]
 
@@ -63,8 +72,8 @@ const education = {
 }
 
 const certifications = [
-  { name: 'Microsoft Certified: Azure Fundamentals', issuer: 'Microsoft', date: 'May 2024' },
-  { name: 'Microsoft Certified: Power Platform Fundamentals', issuer: 'Microsoft', date: 'July 2024' },
+  { name: 'Microsoft Certified: Azure Fundamentals (AZ-900)', issuer: 'Microsoft', date: 'May 2024' },
+  { name: 'Microsoft Certified: Power Platform Fundamentals (PL-900)', issuer: 'Microsoft', date: 'July 2024' },
 ]
 
 // Add projects here and the section + nav link show up on their own.
