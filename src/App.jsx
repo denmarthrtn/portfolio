@@ -7,7 +7,7 @@ const profile = {
   roles: ['Full Stack Software Developer', '.NET Backend Developer', 'React Frontend Developer'],
   location: 'Hagonoy, Bulacan, Philippines',
   email: 'johndenmar.tan@gmail.com',
-  linkedin: 'https://linkedin.com/in/denmartan',
+  linkedin: 'https://www.linkedin.com/in/john-denmar-tan-3a42451b9/',
   intro:
     'I build full-stack web applications with C# and .NET on the backend and React on the frontend, and I care about making them fast.',
   about: [
