@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from 'react'
 
 const profile = {
   name: 'John Denmar Tan',
-  roles: ['Full Stack Software Developer', '.NET Backend Developer', 'React Frontend Developer'],
-  location: 'Hagonoy, Bulacan, Philippines',
+  roles: ['Software Engineer','Full Stack Software Developer', '.NET Backend Developer', 'React Frontend Developer'],
+  location: 'Philippines',
   email: 'johndenmar.tan@gmail.com',
   linkedin: 'https://www.linkedin.com/in/john-denmar-tan-3a42451b9/',
   intro:
